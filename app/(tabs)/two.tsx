@@ -37,7 +37,6 @@ class CustomTiles extends React.Component<any, any> {
     return (
       <View style={styles.container}>
         <MapView
-          mapType={this.mapType}
           style={styles.map}
           initialRegion={region}>
           <UrlTile
@@ -67,9 +66,6 @@ class CustomTiles extends React.Component<any, any> {
           />
         </MapView>
         <View style={styles.buttonContainer}>
-          <View style={styles.bubble}>
-            <Text>Cached URLTiles</Text>
-          </View>
         </View>
       </View>
     );

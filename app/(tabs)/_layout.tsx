@@ -37,7 +37,7 @@ export default function TabLayout() {
           title: 'start',
           tabBarIcon: ({ color }) => <TabBarIcon name="home" color={color} />,
           headerLeft: () => (
-            <Link href="/modal" asChild>
+            <Link href="/profile" asChild>
               <Pressable style={{paddingLeft: 20, paddingBottom: 5}}>
                 {({ pressed }) => (
                   <AccountCircleSvg />
@@ -46,7 +46,7 @@ export default function TabLayout() {
             </Link>
           ),
           headerRight: () => (
-            <Link href="/modal" asChild>
+            <Link href="/notifications" asChild>
               <Pressable style={{paddingRight: 20, paddingBottom: 5}}>
                 {({ pressed }) => (
                   <GlockSvg />
@@ -62,7 +62,7 @@ export default function TabLayout() {
           title: 'maps',
           tabBarIcon: ({ color }) => <TabBarIcon name="map" color={color} />,
           headerLeft: () => (
-            <Link href="/modal" asChild>
+            <Link href="/profile" asChild>
               <Pressable style={{paddingLeft: 20, paddingBottom: 5}}>
                 {({ pressed }) => (
                   <AccountCircleSvg />
@@ -71,7 +71,7 @@ export default function TabLayout() {
             </Link>
           ),
           headerRight: () => (
-            <Link href="/modal" asChild>
+            <Link href="/notifications" asChild>
               <Pressable style={{paddingRight: 20, paddingBottom: 5}}>
                 {({ pressed }) => (
                   <GlockSvg />
@@ -87,7 +87,7 @@ export default function TabLayout() {
           title: 'settings',
           tabBarIcon: ({ color }) => <TabBarIcon name="navicon" color={color} />,
           headerLeft: () => (
-            <Link href="/modal" asChild>
+            <Link href="/profile" asChild>
               <Pressable style={{paddingLeft: 20, paddingBottom: 5}}>
                 {({ pressed }) => (
                   <AccountCircleSvg />
@@ -96,7 +96,7 @@ export default function TabLayout() {
             </Link>
           ),
           headerRight: () => (
-            <Link href="/modal" asChild>
+            <Link href="/notifications" asChild>
               <Pressable style={{paddingRight: 20, paddingBottom: 5}}>
                 {({ pressed }) => (
                   <GlockSvg />
